@@ -4,6 +4,9 @@ nav *{
     box-sizing: border-box;
     margin: auto;
 }
+*{
+    margin: 0px;
+}
 
 /* #container {
 width: 100%;
@@ -151,12 +154,42 @@ height: 100vh;
 .icons {
     display: flex;
     margin-right: 10px;
+      position: relative;
 
+}
+#wishlistLen{
+position: absolute;
+top:-4px;
+right:11%;
+border-radius: 50%;
+background-color:#197fb6;
+padding:5px;
+font-size:12px;
+font-weight:bold;
+color:white;
+
+}
+@media only screen and (min-width: 0px) and (max-width: 960px) {
+   #wishlistLen{
+       display:none;
+   } 
 }
 
 .disicon {
     margin: 15px;
     margin-right: 10px;
+}
+#cartLen{
+    position: absolute;
+top:-4px;
+right:-2%;
+border-radius: 50%;
+background-color:#197fb6;
+padding:5px;
+font-size:12px;
+font-weight:bold;
+color:white;
+
 }
 
 .fas,
@@ -291,7 +324,8 @@ height: 100vh;
     display: flex;
     /* padding: 20%; */
     width: 1000px;
-    margin: auto;
+    margin: 50px auto;
+    justify-content:space-evenly
 }
 #join{
     color: white;
@@ -309,9 +343,11 @@ height: 100vh;
     /* border: 1px solid black; */
     /* margin-left: 50px; */
     width: 400px; 
-    height: 600px;
+    height: 450px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+
      
     /* line-height: 25px; */
 
@@ -473,7 +509,7 @@ height: 100vh;
       color: grey;
   }
   
-        /* yellow container css start */
+       /* yellow container css start */
 
         .yellow_container {
 
@@ -493,30 +529,28 @@ height: 100vh;
             align-items: center;
         }
 
-        .poster_container>div,
-        .yellow_container_heading>div {
+       .poster_container>div, .yellow_container_heading>div {
             position: relative;
             width: auto;
         }
 
-        #yellow_container_btn {
+        .yellow_container_btn {
             position: absolute;
             bottom: 4px;
             left: -5px;
             display: flex;
             padding: 15px 29px;
-            background: black;
+            background-color: black;
             color: white;
             border: transparent;
         }
-
-        #yellow_container_btn:hover {
-            cursor: pointer;
-            color: lightgray;
-        }
+         .yellow_container_btn:hover{
+             cursor: pointer;
+             color:lightgray;
+         }
 
         .btn-back {
-            width: 125px;
+            width: 130px;
             height: 43px;
             border: 1px solid black;
         }
