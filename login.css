@@ -20,7 +20,6 @@ height: 100vh;
     margin: 50px 0px;
 
 }
-
 .change #bar1 {
     transform: translateY(4px) rotateZ(-45deg);
 }
@@ -534,7 +533,7 @@ color:white;
             width: auto;
         }
 
-        .yellow_container_btn {
+        #yellow_container_btn {
             position: absolute;
             bottom: 4px;
             left: -5px;
@@ -544,7 +543,7 @@ color:white;
             color: white;
             border: transparent;
         }
-         .yellow_container_btn:hover{
+         #yellow_container_btn:hover{
              cursor: pointer;
              color:lightgray;
          }
