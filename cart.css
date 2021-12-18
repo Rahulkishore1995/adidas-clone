@@ -372,6 +372,13 @@ span.price{
 #right{
     width: 300px;
 }
+#mycarddata{
+    margin-top:10px;
+}
+.wishlistsymbal{
+    margin-top:10px;
+    font-size: 25px;
+}
 #prod{
     border: 1px solid grey;
     display: flex;
@@ -418,13 +425,16 @@ span.price{
 #fir>img{
     width: 100%;
 }
-.close {
+/* .close {
     color: black;
     float: right;
     font-size: 28px;
     font-weight: bold;
     cursor: pointer;
     margin-top: 0px;
+  } */
+  .close:hover{
+      cursor: pointer;
   }
   #link>p:hover{
     cursor: pointer;
