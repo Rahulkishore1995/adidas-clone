@@ -444,6 +444,11 @@ color:white;
             margin-top: 100px;
             font-style: italic;
             margin-bottom: 15px;
+            margin-left: 10px;
+        }
+        .myanchor{
+            margin-left: 10px;
+            color: black;
         }
     
 
