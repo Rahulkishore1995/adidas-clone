@@ -334,6 +334,10 @@ color:white;
 #order1{
     display: flex;
     justify-content: space-between;
+    
+}
+#order1>div>p{
+margin-top: 5px;
 }
 
 
