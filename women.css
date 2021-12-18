@@ -451,7 +451,7 @@ section>div>div:hover {
                grid-template-columns: repeat(5, 1fr);
                grid-gap:10px;
                grid-template-rows: repeat(1,auto);
-               width:fit-content;
+               width:100%;
             }
             
         #bar>div {
