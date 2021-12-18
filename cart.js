@@ -101,6 +101,7 @@ function displaycart(arr) {
     document.querySelector(".mytotal").textContent = total;
     document.querySelector("#check_len").textContent = le;
     document.querySelector("#checktotal").textContent = total;
+    document.querySelector("#check_total_amt").textContent = total;
 }
 
 function deleteRow(index) {
@@ -124,3 +125,4 @@ function mypro() {
         console.log(disamt);
     }
 }
+document.querySelector("#check_discount").textContent = total;
