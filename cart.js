@@ -113,7 +113,7 @@ function deleteRow(index) {
 document.querySelector("#proapp").addEventListener("click", mypro);
 // console.log("to", total)
 function mypro() {
-    console.log(total)
+    // console.log(total)
     var discount = 0;
     var disamt = 0;
     var pro = document.querySelector("#myinput").value;
