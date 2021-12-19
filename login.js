@@ -47,7 +47,7 @@ function signIN() {
   var password = document.querySelector("#password").value;
 
   if (email === "admin" && password === "admin") {
-    window.location.href = "admin.html";
+    window.location.href = "home.html";
   }
   else {
     for (var i = 0; i < regdUsers.length; i++) {
