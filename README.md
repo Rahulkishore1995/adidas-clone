@@ -1,6 +1,5 @@
 # adidas-clone
 
-# first-cry-Web-Clone
 
 ![Adidas](https://user-images.githubusercontent.com/95961486/158548097-5dca4d42-b32f-4691-a7d8-d77fade3580e.png)
 
